@@ -1,0 +1,379 @@
+{
+  "per_class": {
+    "toiture_tole_ondulee": {
+      "iou_0.5": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 257,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.55": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 257,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.6": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 257,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.65": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 257,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.7": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 257,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.75": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 257,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.8": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 257,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.85": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 257,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.9": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 257,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.95": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 257,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      }
+    },
+    "toiture_tole_bac": {
+      "iou_0.5": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 302,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.55": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 302,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.6": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 302,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.65": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 302,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.7": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 302,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.75": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 302,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.8": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 302,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.85": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 302,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.9": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 302,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.95": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 302,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      }
+    },
+    "toiture_dalle": {
+      "iou_0.5": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 68,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.55": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 68,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.6": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 68,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.65": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 68,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.7": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 68,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.75": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 68,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.8": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 68,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.85": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 68,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.9": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 68,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      },
+      "iou_0.95": {
+        "TP": 0,
+        "FP": 0,
+        "FN": 68,
+        "Precision": 0.0,
+        "Recall": 0.0,
+        "F1": 0.0,
+        "AP": 0.0
+      }
+    }
+  },
+  "overall": {
+    "iou_0.5": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 627,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0
+    },
+    "iou_0.55": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 627,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0
+    },
+    "iou_0.6": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 627,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0
+    },
+    "iou_0.65": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 627,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0
+    },
+    "iou_0.7": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 627,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0
+    },
+    "iou_0.75": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 627,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0
+    },
+    "iou_0.8": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 627,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0
+    },
+    "iou_0.85": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 627,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0
+    },
+    "iou_0.9": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 627,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0
+    },
+    "iou_0.95": {
+      "TP": 0,
+      "FP": 0,
+      "FN": 627,
+      "Precision": 0.0,
+      "Recall": 0.0,
+      "F1": 0.0
+    }
+  },
+  "iou_stats": {},
+  "mAP50": 0.0,
+  "mAP50_95": 0.0,
+  "mAP_per_class": {
+    "toiture_tole_ondulee": {
+      "AP50": 0.0,
+      "AP50_95": 0.0
+    },
+    "toiture_tole_bac": {
+      "AP50": 0.0,
+      "AP50_95": 0.0
+    },
+    "toiture_dalle": {
+      "AP50": 0.0,
+      "AP50_95": 0.0
+    }
+  }
+}

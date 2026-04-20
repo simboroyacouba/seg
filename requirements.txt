@@ -1,0 +1,24 @@
+# Requirements pour le modèle Keras/TensorFlow Cadastral
+# Installation: pip install -r requirements.txt
+
+# TensorFlow / Keras
+# Pour GPU: pip install tensorflow[and-cuda]
+# Pour CPU: pip install tensorflow
+tensorflow>=2.13.0
+
+# COCO tools
+pycocotools>=2.0.6
+
+# Traitement d'images
+Pillow>=9.0.0
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Visualisation
+matplotlib>=3.5.0
+seaborn>=0.12.0
+
+# Utilitaires
+tqdm>=4.64.0
+python-dotenv>=1.0.0
+PyYAML>=6.0.0

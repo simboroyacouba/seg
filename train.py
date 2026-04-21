@@ -53,11 +53,11 @@ CONFIG = {
     "image_size": 224,
 
     # Phase 1 : tête seule
-    "phase1_epochs":    10,
+    "phase1_epochs":    15,
     "phase1_lr":        1e-3,
 
     # Phase 2 : fine-tuning complet
-    "phase2_epochs":    20,
+    "phase2_epochs":    50,
     "phase2_lr":        1e-5,
 
     # Dataset
@@ -351,7 +351,7 @@ def train_epoch(model, ds, optimizer, loss_fn, num_classes):
         total_loss += loss.numpy()
         n_batches  += 1
 
-    return total_loss / n_batches, float(iou_metric.result())
+    return float(total_loss / n_batches), float(iou_metric.result())
 
 
 def val_epoch(model, ds, loss_fn, num_classes):
@@ -369,7 +369,7 @@ def val_epoch(model, ds, loss_fn, num_classes):
         total_loss += loss.numpy()
         n_batches  += 1
 
-    return total_loss / n_batches, float(iou_metric.result())
+    return float(total_loss / n_batches), float(iou_metric.result())
 
 
 def run_phase(phase_num, model, train_ds, val_ds, optimizer, loss_fn,
@@ -392,7 +392,7 @@ def run_phase(phase_num, model, train_ds, val_ds, optimizer, loss_fn,
         history['val_loss'].append(val_loss)
         history['train_iou'].append(train_iou)
         history['val_iou'].append(val_iou)
-        history['lr'].append(float(optimizer.learning_rate.numpy()))
+        history['lr'].append(float(optimizer.learning_rate))
         history['epoch_times'].append(time_stats['epoch_time'])
         history['cumulative_times'].append(time_stats['total_elapsed'])
 

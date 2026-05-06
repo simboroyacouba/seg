@@ -1,0 +1,7 @@
+# YOLO outputs
+evaluation/
+evaluation2/
+output/
+predictions/
+*.pt
+*.pth

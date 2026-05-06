@@ -369,11 +369,72 @@ def predict_for_eval(model, image_path, gt_width, gt_height, image_size=512):
     pred_boxes_arr = np.array(pred_boxes) if pred_boxes else np.zeros((0, 4))
     pred_labels_arr = np.array(pred_labels, dtype=int) if pred_labels else np.zeros((0,), dtype=int)
 
-    return pred_boxes_arr, pred_labels_arr, pred_masks
+    return pred_boxes_arr, pred_labels_arr, pred_masks, pred_mask
 
 
 # =============================================================================
-# VISUALISATION
+# VISUALISATION COMPARAISON GT vs PRÉDICTION
+# =============================================================================
+
+PALETTE = [
+    (0,   0,   0),    # 0 background — noir
+    (255, 0,   0),    # 1 toiture_tole_ondulee — rouge
+    (0,   200, 0),    # 2 toiture_tole_bac — vert
+    (0,   0,   255),  # 3 toiture_dalle — bleu
+]
+
+def build_gt_mask(gt, image_size):
+    """Reconstruit le masque sémantique GT depuis les instances COCO."""
+    mask = np.zeros((gt['height'], gt['width']), dtype=np.uint8)
+    for m, label in zip(gt['masks'], gt['labels']):
+        mask[m > 0] = int(label)
+    gt_pil = Image.fromarray(mask).resize((image_size, image_size), Image.NEAREST)
+    return np.array(gt_pil)
+
+def mask_to_color(mask, palette):
+    h, w = mask.shape
+    color = np.zeros((h, w, 3), dtype=np.uint8)
+    for idx, rgb in enumerate(palette):
+        color[mask == idx] = rgb
+    return color
+
+def save_comparison(img_path, gt, pred_mask, output_path, image_size, classes):
+    image = Image.open(img_path).convert("RGB").resize((image_size, image_size), Image.BILINEAR)
+
+    gt_mask  = build_gt_mask(gt, image_size)
+    gt_color   = mask_to_color(gt_mask,  PALETTE)
+    pred_color = mask_to_color(pred_mask, PALETTE)
+
+    fig, axes = plt.subplots(1, 3, figsize=(15, 5))
+
+    axes[0].imshow(image)
+    axes[0].set_title("Image originale", fontsize=11)
+    axes[0].axis('off')
+
+    axes[1].imshow(gt_color)
+    axes[1].set_title("Masque GT (annotations)", fontsize=11)
+    axes[1].axis('off')
+
+    axes[2].imshow(pred_color)
+    axes[2].set_title("Masque prédit (modèle)", fontsize=11)
+    axes[2].axis('off')
+
+    # Légende des couleurs
+    from matplotlib.patches import Patch
+    legend_elements = [
+        Patch(facecolor=tuple(c/255 for c in PALETTE[i]), label=classes[i])
+        for i in range(1, len(classes))
+    ]
+    fig.legend(handles=legend_elements, loc='lower center', ncol=len(classes)-1,
+               fontsize=9, framealpha=0.8)
+
+    plt.tight_layout(rect=[0, 0.06, 1, 1])
+    plt.savefig(output_path, dpi=120, bbox_inches='tight')
+    plt.close()
+
+
+# =============================================================================
+# VISUALISATION MÉTRIQUES
 # =============================================================================
 
 def plot_metrics(results, output_dir):
@@ -528,6 +589,9 @@ def main():
 
     print("\n📊 Calcul des métriques...")
 
+    comparisons_dir = os.path.join(CONFIG["output_dir"], "comparisons")
+    os.makedirs(comparisons_dir, exist_ok=True)
+
     image_files = list(ground_truths.keys())
 
     for img_file in tqdm(image_files, desc="Évaluation"):
@@ -538,9 +602,15 @@ def main():
 
         gt = ground_truths[img_file]
 
-        pred_boxes, pred_labels, pred_masks = predict_for_eval(
+        pred_boxes, pred_labels, pred_masks, pred_semantic = predict_for_eval(
             model, img_path, gt['width'], gt['height'], CONFIG["image_size"]
         )
+
+        # Sauvegarde comparaison GT vs prédiction
+        stem = os.path.splitext(img_file)[0].replace("/", "_").replace("\\", "_")
+        out_path = os.path.join(comparisons_dir, f"{stem}_comparison.png")
+        save_comparison(img_path, gt, pred_semantic, out_path,
+                        CONFIG["image_size"], CONFIG["classes"])
 
         metrics_calc.add_image(
             pred_boxes, pred_labels, pred_masks,
@@ -599,6 +669,8 @@ def main():
     print("\n" + "=" * 70)
     print("   ✅ ÉVALUATION TERMINÉE")
     print("=" * 70)
+    print(f"\n🖼️  Comparaisons GT vs Prédiction: {comparisons_dir}")
+    print(f"   ({len(image_files)} images sauvegardées)")
 
 
 if __name__ == "__main__":

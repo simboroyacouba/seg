@@ -1,0 +1,110 @@
+======================================================================
+   RAPPORT D'ENTRAÎNEMENT - KERAS U-NET CADASTRAL
+   (Transfer Learning depuis détection maladies cutanées)
+======================================================================
+
+CONFIGURATION
+--------------------------------------------------
+   pretrained_model_path: /kaggle/input/models/simboroyacouba/model1/keras/default/1/final_segmentation_model.keras
+   images_dir: /kaggle/input/datasets/simboroyacouba/dataset1
+   annotations_file: /kaggle/input/datasets/simboroyacouba/dataset1/instances_default.json
+   classes_file: classes.yaml
+   output_dir: ./output
+   classes: ['__background__', 'toiture_tole_ondulee', 'toiture_tole_bac', 'toiture_dalle']
+   image_size: 224
+   phase1_epochs: 15
+   phase1_lr: 0.001
+   phase2_epochs: 50
+   phase2_lr: 1e-05
+   batch_size: 8
+   train_split: 0.85
+   save_every: 5
+
+STRATÉGIE TRANSFER LEARNING
+--------------------------------------------------
+   Modèle source:    /kaggle/input/models/simboroyacouba/model1/keras/default/1/final_segmentation_model.keras
+   Phase 1 (15 epochs): encodeur + décodeur gelés, LR=0.001
+   Phase 2 (50 epochs): fine-tuning complet,        LR=1e-05
+   Couche remplacée: Conv2D(1, sigmoid) → Conv2D(4, softmax)
+
+PERFORMANCES
+--------------------------------------------------
+   Meilleure Val Loss: 0.8709
+   Val Loss finale:    0.8709
+   Val IoU finale:     0.3740
+
+TEMPS D'ENTRAÎNEMENT
+--------------------------------------------------
+   Début:              2026-04-21 17:31:34
+   Fin:                2026-04-21 18:10:00
+   Temps total:        37m 43s
+   Temps moyen/epoch:  34.8s
+   Écart-type:         9.08s
+
+TEMPS PAR EPOCH
+--------------------------------------------------
+   Epoch   1 (Ph1): 26.3s
+   Epoch   2 (Ph1): 18.0s
+   Epoch   3 (Ph1): 18.4s
+   Epoch   4 (Ph1): 17.7s
+   Epoch   5 (Ph1): 18.1s
+   Epoch   6 (Ph1): 17.8s
+   Epoch   7 (Ph1): 17.7s
+   Epoch   8 (Ph1): 17.6s
+   Epoch   9 (Ph1): 17.8s
+   Epoch  10 (Ph1): 17.9s
+   Epoch  11 (Ph1): 17.8s
+   Epoch  12 (Ph1): 17.6s
+   Epoch  13 (Ph1): 17.6s
+   Epoch  14 (Ph1): 17.5s
+   Epoch  15 (Ph1): 17.7s
+   Epoch  16 (Ph2): 40.2s
+   Epoch  17 (Ph2): 39.2s
+   Epoch  18 (Ph2): 39.5s
+   Epoch  19 (Ph2): 39.2s
+   Epoch  20 (Ph2): 39.5s
+   Epoch  21 (Ph2): 39.4s
+   Epoch  22 (Ph2): 39.6s
+   Epoch  23 (Ph2): 40.8s
+   Epoch  24 (Ph2): 39.4s
+   Epoch  25 (Ph2): 39.5s
+   Epoch  26 (Ph2): 39.7s
+   Epoch  27 (Ph2): 39.5s
+   Epoch  28 (Ph2): 39.5s
+   Epoch  29 (Ph2): 39.9s
+   Epoch  30 (Ph2): 39.4s
+   Epoch  31 (Ph2): 39.4s
+   Epoch  32 (Ph2): 39.4s
+   Epoch  33 (Ph2): 39.7s
+   Epoch  34 (Ph2): 39.7s
+   Epoch  35 (Ph2): 39.5s
+   Epoch  36 (Ph2): 39.6s
+   Epoch  37 (Ph2): 39.9s
+   Epoch  38 (Ph2): 40.0s
+   Epoch  39 (Ph2): 39.6s
+   Epoch  40 (Ph2): 40.1s
+   Epoch  41 (Ph2): 40.0s
+   Epoch  42 (Ph2): 40.1s
+   Epoch  43 (Ph2): 39.7s
+   Epoch  44 (Ph2): 39.8s
+   Epoch  45 (Ph2): 40.1s
+   Epoch  46 (Ph2): 40.2s
+   Epoch  47 (Ph2): 40.1s
+   Epoch  48 (Ph2): 39.9s
+   Epoch  49 (Ph2): 40.0s
+   Epoch  50 (Ph2): 39.7s
+   Epoch  51 (Ph2): 40.0s
+   Epoch  52 (Ph2): 39.8s
+   Epoch  53 (Ph2): 40.0s
+   Epoch  54 (Ph2): 40.0s
+   Epoch  55 (Ph2): 39.9s
+   Epoch  56 (Ph2): 40.0s
+   Epoch  57 (Ph2): 40.1s
+   Epoch  58 (Ph2): 39.8s
+   Epoch  59 (Ph2): 39.7s
+   Epoch  60 (Ph2): 40.0s
+   Epoch  61 (Ph2): 39.5s
+   Epoch  62 (Ph2): 39.5s
+   Epoch  63 (Ph2): 39.7s
+   Epoch  64 (Ph2): 39.9s
+   Epoch  65 (Ph2): 39.6s

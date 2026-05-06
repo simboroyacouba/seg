@@ -1,0 +1,205 @@
+{
+  "timestamp": "2026-04-21T18:12:25.841913",
+  "model": "Keras-seg",
+  "total_images": 37,
+  "total_processing_time_s": 70.34053039550781,
+  "avg_inference_time_ms": 437.29263382989006,
+  "total_objects": 113,
+  "objects_by_class": {
+    "toiture_tole_ondulee": 0,
+    "toiture_tole_bac": 113,
+    "toiture_dalle": 0
+  },
+  "surfaces_by_class": {
+    "toiture_tole_ondulee": 0,
+    "toiture_tole_bac": 2602924,
+    "toiture_dalle": 0
+  },
+  "per_image_stats": [
+    {
+      "image": "Production_2_ortho_merge_27_17.png",
+      "objects": 4,
+      "inference_time_ms": 13067.696571350098
+    },
+    {
+      "image": "Production_2_ortho_merge_27_19.png",
+      "objects": 6,
+      "inference_time_ms": 89.25986289978027
+    },
+    {
+      "image": "Production_2_ortho_merge_27_30.png",
+      "objects": 5,
+      "inference_time_ms": 85.26277542114258
+    },
+    {
+      "image": "Production_2_ortho_merge_27_32.png",
+      "objects": 7,
+      "inference_time_ms": 85.32881736755371
+    },
+    {
+      "image": "Production_2_ortho_merge_31_13.png",
+      "objects": 3,
+      "inference_time_ms": 85.39962768554688
+    },
+    {
+      "image": "Production_2_ortho_merge_31_14.png",
+      "objects": 2,
+      "inference_time_ms": 86.58552169799805
+    },
+    {
+      "image": "Production_2_ortho_merge_31_15.png",
+      "objects": 4,
+      "inference_time_ms": 87.58211135864258
+    },
+    {
+      "image": "Production_2_ortho_merge_31_18.png",
+      "objects": 7,
+      "inference_time_ms": 84.68914031982422
+    },
+    {
+      "image": "Production_2_ortho_merge_31_25.png",
+      "objects": 4,
+      "inference_time_ms": 84.84411239624023
+    },
+    {
+      "image": "Production_2_ortho_merge_31_26.png",
+      "objects": 4,
+      "inference_time_ms": 85.42776107788086
+    },
+    {
+      "image": "Production_2_ortho_merge_31_27.png",
+      "objects": 1,
+      "inference_time_ms": 86.86947822570801
+    },
+    {
+      "image": "Production_2_ortho_merge_31_28.png",
+      "objects": 3,
+      "inference_time_ms": 87.09454536437988
+    },
+    {
+      "image": "Production_2_ortho_merge_31_30.png",
+      "objects": 1,
+      "inference_time_ms": 86.93218231201172
+    },
+    {
+      "image": "Production_2_ortho_merge_31_40.png",
+      "objects": 4,
+      "inference_time_ms": 86.90237998962402
+    },
+    {
+      "image": "Production_2_ortho_merge_32_05.png",
+      "objects": 0,
+      "inference_time_ms": 86.67206764221191
+    },
+    {
+      "image": "Production_2_ortho_merge_32_06.png",
+      "objects": 1,
+      "inference_time_ms": 86.21931076049805
+    },
+    {
+      "image": "Production_2_ortho_merge_32_07.png",
+      "objects": 3,
+      "inference_time_ms": 86.21644973754883
+    },
+    {
+      "image": "Production_2_ortho_merge_32_08.png",
+      "objects": 2,
+      "inference_time_ms": 84.92612838745117
+    },
+    {
+      "image": "Production_2_ortho_merge_32_10.png",
+      "objects": 2,
+      "inference_time_ms": 85.94942092895508
+    },
+    {
+      "image": "Production_2_ortho_merge_32_12.png",
+      "objects": 5,
+      "inference_time_ms": 85.94870567321777
+    },
+    {
+      "image": "Production_2_ortho_merge_32_13.png",
+      "objects": 4,
+      "inference_time_ms": 86.25006675720215
+    },
+    {
+      "image": "Production_2_ortho_merge_32_14.png",
+      "objects": 4,
+      "inference_time_ms": 86.27653121948242
+    },
+    {
+      "image": "Production_2_ortho_merge_32_17.png",
+      "objects": 2,
+      "inference_time_ms": 86.83562278747559
+    },
+    {
+      "image": "Production_2_ortho_merge_32_18.png",
+      "objects": 3,
+      "inference_time_ms": 84.92279052734375
+    },
+    {
+      "image": "Production_2_ortho_merge_32_23.png",
+      "objects": 1,
+      "inference_time_ms": 85.58797836303711
+    },
+    {
+      "image": "Production_2_ortho_merge_32_27.png",
+      "objects": 2,
+      "inference_time_ms": 86.0435962677002
+    },
+    {
+      "image": "Production_2_ortho_merge_32_28.png",
+      "objects": 4,
+      "inference_time_ms": 84.16533470153809
+    },
+    {
+      "image": "Production_2_ortho_merge_32_29.png",
+      "objects": 5,
+      "inference_time_ms": 84.24878120422363
+    },
+    {
+      "image": "Production_2_ortho_merge_32_30.png",
+      "objects": 0,
+      "inference_time_ms": 84.89680290222168
+    },
+    {
+      "image": "Production_2_ortho_merge_32_36.png",
+      "objects": 3,
+      "inference_time_ms": 92.06223487854004
+    },
+    {
+      "image": "Production_2_ortho_merge_32_37.png",
+      "objects": 8,
+      "inference_time_ms": 86.17758750915527
+    },
+    {
+      "image": "Production_2_ortho_merge_33_12.png",
+      "objects": 1,
+      "inference_time_ms": 86.76481246948242
+    },
+    {
+      "image": "Production_2_ortho_merge_33_13.png",
+      "objects": 4,
+      "inference_time_ms": 87.36944198608398
+    },
+    {
+      "image": "Production_2_ortho_merge_33_28.png",
+      "objects": 1,
+      "inference_time_ms": 88.80448341369629
+    },
+    {
+      "image": "Production_2_ortho_merge_33_29.png",
+      "objects": 2,
+      "inference_time_ms": 92.82588958740234
+    },
+    {
+      "image": "Production_2_ortho_merge_33_37.png",
+      "objects": 1,
+      "inference_time_ms": 84.78832244873047
+    },
+    {
+      "image": "Production_2_ortho_merge_33_38.png",
+      "objects": 0,
+      "inference_time_ms": 86.00020408630371
+    }
+  ]
+}

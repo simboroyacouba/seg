@@ -1,0 +1,2056 @@
+[
+  {
+    "image": "Production_2_ortho_merge_27_17.png",
+    "timestamp": "2026-04-21T18:11:30.430536",
+    "inference_time_ms": 13067.696571350098,
+    "total_objects": 4,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 4,
+        "total_surface_px": 203645
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 195907,
+        "bbox": [
+          370,
+          5,
+          855,
+          521
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 7112,
+        "bbox": [
+          329,
+          434,
+          443,
+          526
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 176,
+        "bbox": [
+          809,
+          987,
+          823,
+          1001
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 450,
+        "bbox": [
+          782,
+          1001,
+          823,
+          1019
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_27_19.png",
+    "timestamp": "2026-04-21T18:11:32.100078",
+    "inference_time_ms": 89.25986289978027,
+    "total_objects": 6,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 6,
+        "total_surface_px": 21055
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 8516,
+        "bbox": [
+          599,
+          5,
+          777,
+          73
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 5740,
+        "bbox": [
+          946,
+          5,
+          1019,
+          101
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 171,
+        "bbox": [
+          782,
+          23,
+          800,
+          37
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 4621,
+        "bbox": [
+          658,
+          544,
+          768,
+          617
+        ]
+      },
+      {
+        "id": 4,
+        "class": "toiture_tole_bac",
+        "surface_px": 664,
+        "bbox": [
+          626,
+          553,
+          654,
+          585
+        ]
+      },
+      {
+        "id": 5,
+        "class": "toiture_tole_bac",
+        "surface_px": 1343,
+        "bbox": [
+          14,
+          864,
+          69,
+          905
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_27_30.png",
+    "timestamp": "2026-04-21T18:11:33.846112",
+    "inference_time_ms": 85.26277542114258,
+    "total_objects": 5,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 5,
+        "total_surface_px": 158623
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 151,
+        "bbox": [
+          27,
+          5,
+          46,
+          14
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 55339,
+        "bbox": [
+          5,
+          5,
+          178,
+          475
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 207,
+        "bbox": [
+          5,
+          352,
+          14,
+          379
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 162,
+        "bbox": [
+          114,
+          457,
+          128,
+          475
+        ]
+      },
+      {
+        "id": 4,
+        "class": "toiture_tole_bac",
+        "surface_px": 102764,
+        "bbox": [
+          242,
+          562,
+          658,
+          951
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_27_32.png",
+    "timestamp": "2026-04-21T18:11:35.635959",
+    "inference_time_ms": 85.32881736755371,
+    "total_objects": 7,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 7,
+        "total_surface_px": 382016
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 1272,
+        "bbox": [
+          677,
+          5,
+          731,
+          37
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 1185,
+        "bbox": [
+          754,
+          5,
+          814,
+          37
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 1074,
+        "bbox": [
+          887,
+          5,
+          933,
+          37
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 186454,
+        "bbox": [
+          498,
+          50,
+          983,
+          485
+        ]
+      },
+      {
+        "id": 4,
+        "class": "toiture_tole_bac",
+        "surface_px": 191678,
+        "bbox": [
+          503,
+          526,
+          965,
+          1019
+        ]
+      },
+      {
+        "id": 5,
+        "class": "toiture_tole_bac",
+        "surface_px": 126,
+        "bbox": [
+          882,
+          955,
+          891,
+          969
+        ]
+      },
+      {
+        "id": 6,
+        "class": "toiture_tole_bac",
+        "surface_px": 227,
+        "bbox": [
+          315,
+          1006,
+          343,
+          1019
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_31_13.png",
+    "timestamp": "2026-04-21T18:11:37.284281",
+    "inference_time_ms": 85.39962768554688,
+    "total_objects": 3,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 3,
+        "total_surface_px": 40159
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 27766,
+        "bbox": [
+          5,
+          87,
+          219,
+          238
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 549,
+        "bbox": [
+          416,
+          229,
+          439,
+          270
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 11844,
+        "bbox": [
+          658,
+          590,
+          841,
+          709
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_31_14.png",
+    "timestamp": "2026-04-21T18:11:38.970999",
+    "inference_time_ms": 86.58552169799805,
+    "total_objects": 2,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 2,
+        "total_surface_px": 196874
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 150006,
+        "bbox": [
+          0,
+          101,
+          672,
+          498
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 46868,
+        "bbox": [
+          763,
+          261,
+          1019,
+          535
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_31_15.png",
+    "timestamp": "2026-04-21T18:11:40.676591",
+    "inference_time_ms": 87.58211135864258,
+    "total_objects": 4,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 4,
+        "total_surface_px": 101003
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 32885,
+        "bbox": [
+          0,
+          274,
+          142,
+          562
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 21459,
+        "bbox": [
+          823,
+          393,
+          1019,
+          549
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 19996,
+        "bbox": [
+          722,
+          599,
+          864,
+          928
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 26663,
+        "bbox": [
+          5,
+          727,
+          114,
+          1019
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_31_18.png",
+    "timestamp": "2026-04-21T18:11:42.401980",
+    "inference_time_ms": 84.68914031982422,
+    "total_objects": 7,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 7,
+        "total_surface_px": 59176
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 2726,
+        "bbox": [
+          896,
+          5,
+          974,
+          50
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 322,
+        "bbox": [
+          197,
+          279,
+          247,
+          288
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 9408,
+        "bbox": [
+          5,
+          329,
+          96,
+          503
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 142,
+        "bbox": [
+          5,
+          489,
+          14,
+          507
+        ]
+      },
+      {
+        "id": 4,
+        "class": "toiture_tole_bac",
+        "surface_px": 25263,
+        "bbox": [
+          5,
+          754,
+          169,
+          974
+        ]
+      },
+      {
+        "id": 5,
+        "class": "toiture_tole_bac",
+        "surface_px": 13132,
+        "bbox": [
+          690,
+          763,
+          841,
+          992
+        ]
+      },
+      {
+        "id": 6,
+        "class": "toiture_tole_bac",
+        "surface_px": 8183,
+        "bbox": [
+          754,
+          763,
+          887,
+          901
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_31_25.png",
+    "timestamp": "2026-04-21T18:11:44.057853",
+    "inference_time_ms": 84.84411239624023,
+    "total_objects": 4,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 4,
+        "total_surface_px": 78830
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 69594,
+        "bbox": [
+          622,
+          5,
+          1019,
+          352
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 3094,
+        "bbox": [
+          530,
+          18,
+          590,
+          91
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 2890,
+        "bbox": [
+          965,
+          151,
+          1019,
+          238
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 3252,
+        "bbox": [
+          9,
+          864,
+          59,
+          960
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_31_26.png",
+    "timestamp": "2026-04-21T18:11:45.702599",
+    "inference_time_ms": 85.42776107788086,
+    "total_objects": 4,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 4,
+        "total_surface_px": 11179
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 8383,
+        "bbox": [
+          5,
+          18,
+          87,
+          183
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 111,
+        "bbox": [
+          59,
+          151,
+          73,
+          165
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 2573,
+        "bbox": [
+          233,
+          827,
+          293,
+          896
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 112,
+        "bbox": [
+          14,
+          873,
+          18,
+          901
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_31_27.png",
+    "timestamp": "2026-04-21T18:11:47.532263",
+    "inference_time_ms": 86.86947822570801,
+    "total_objects": 1,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 1,
+        "total_surface_px": 20284
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 20284,
+        "bbox": [
+          901,
+          5,
+          1019,
+          187
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_31_28.png",
+    "timestamp": "2026-04-21T18:11:49.149622",
+    "inference_time_ms": 87.09454536437988,
+    "total_objects": 3,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 3,
+        "total_surface_px": 25298
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 238,
+        "bbox": [
+          78,
+          64,
+          105,
+          87
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 12532,
+        "bbox": [
+          494,
+          101,
+          608,
+          233
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 12528,
+        "bbox": [
+          334,
+          407,
+          457,
+          535
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_31_30.png",
+    "timestamp": "2026-04-21T18:11:50.749853",
+    "inference_time_ms": 86.93218231201172,
+    "total_objects": 1,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 1,
+        "total_surface_px": 51489
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 51489,
+        "bbox": [
+          654,
+          5,
+          997,
+          393
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_31_40.png",
+    "timestamp": "2026-04-21T18:11:52.319633",
+    "inference_time_ms": 86.90237998962402,
+    "total_objects": 4,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 4,
+        "total_surface_px": 13943
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 276,
+        "bbox": [
+          928,
+          5,
+          987,
+          14
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 10244,
+        "bbox": [
+          901,
+          5,
+          1019,
+          169
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 1253,
+        "bbox": [
+          869,
+          306,
+          946,
+          334
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 2170,
+        "bbox": [
+          974,
+          425,
+          1019,
+          494
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_05.png",
+    "timestamp": "2026-04-21T18:11:53.899055",
+    "inference_time_ms": 86.67206764221191,
+    "total_objects": 0,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": []
+  },
+  {
+    "image": "Production_2_ortho_merge_32_06.png",
+    "timestamp": "2026-04-21T18:11:55.512879",
+    "inference_time_ms": 86.21931076049805,
+    "total_objects": 1,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 1,
+        "total_surface_px": 67108
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 67108,
+        "bbox": [
+          105,
+          5,
+          384,
+          302
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_07.png",
+    "timestamp": "2026-04-21T18:11:57.136282",
+    "inference_time_ms": 86.21644973754883,
+    "total_objects": 3,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 3,
+        "total_surface_px": 89216
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 75831,
+        "bbox": [
+          466,
+          142,
+          727,
+          539
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 13171,
+        "bbox": [
+          763,
+          169,
+          887,
+          366
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 214,
+        "bbox": [
+          677,
+          544,
+          690,
+          562
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_08.png",
+    "timestamp": "2026-04-21T18:11:58.760140",
+    "inference_time_ms": 84.92612838745117,
+    "total_objects": 2,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 2,
+        "total_surface_px": 18486
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 17703,
+        "bbox": [
+          5,
+          585,
+          169,
+          709
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 783,
+        "bbox": [
+          293,
+          823,
+          320,
+          869
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_10.png",
+    "timestamp": "2026-04-21T18:12:00.353512",
+    "inference_time_ms": 85.94942092895508,
+    "total_objects": 2,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 2,
+        "total_surface_px": 19410
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 1399,
+        "bbox": [
+          5,
+          434,
+          32,
+          503
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 18011,
+        "bbox": [
+          50,
+          489,
+          133,
+          795
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_12.png",
+    "timestamp": "2026-04-21T18:12:01.951436",
+    "inference_time_ms": 85.94870567321777,
+    "total_objects": 5,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 5,
+        "total_surface_px": 49352
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 12627,
+        "bbox": [
+          933,
+          215,
+          1019,
+          411
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 30446,
+        "bbox": [
+          709,
+          421,
+          923,
+          631
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 5868,
+        "bbox": [
+          965,
+          503,
+          1019,
+          635
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 175,
+        "bbox": [
+          773,
+          635,
+          795,
+          645
+        ]
+      },
+      {
+        "id": 4,
+        "class": "toiture_tole_bac",
+        "surface_px": 236,
+        "bbox": [
+          795,
+          635,
+          818,
+          654
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_13.png",
+    "timestamp": "2026-04-21T18:12:03.665557",
+    "inference_time_ms": 86.25006675720215,
+    "total_objects": 4,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 4,
+        "total_surface_px": 105698
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 5057,
+        "bbox": [
+          5,
+          215,
+          37,
+          411
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 2558,
+        "bbox": [
+          5,
+          507,
+          27,
+          640
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 28617,
+        "bbox": [
+          699,
+          521,
+          955,
+          718
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 69466,
+        "bbox": [
+          105,
+          809,
+          608,
+          1019
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_14.png",
+    "timestamp": "2026-04-21T18:12:05.269559",
+    "inference_time_ms": 86.27653121948242,
+    "total_objects": 4,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 4,
+        "total_surface_px": 18624
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 158,
+        "bbox": [
+          997,
+          5,
+          1015,
+          18
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 8487,
+        "bbox": [
+          599,
+          471,
+          709,
+          567
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 106,
+        "bbox": [
+          379,
+          677,
+          398,
+          686
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 9873,
+        "bbox": [
+          818,
+          690,
+          987,
+          777
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_17.png",
+    "timestamp": "2026-04-21T18:12:06.892126",
+    "inference_time_ms": 86.83562278747559,
+    "total_objects": 2,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 2,
+        "total_surface_px": 56393
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 39815,
+        "bbox": [
+          261,
+          471,
+          498,
+          709
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 16578,
+        "bbox": [
+          631,
+          763,
+          731,
+          960
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_18.png",
+    "timestamp": "2026-04-21T18:12:08.503335",
+    "inference_time_ms": 84.92279052734375,
+    "total_objects": 3,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 3,
+        "total_surface_px": 32636
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 10342,
+        "bbox": [
+          233,
+          567,
+          320,
+          745
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 142,
+        "bbox": [
+          229,
+          681,
+          238,
+          699
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 22152,
+        "bbox": [
+          46,
+          823,
+          242,
+          1019
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_23.png",
+    "timestamp": "2026-04-21T18:12:10.120252",
+    "inference_time_ms": 85.58797836303711,
+    "total_objects": 1,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 1,
+        "total_surface_px": 54259
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 54259,
+        "bbox": [
+          416,
+          338,
+          763,
+          558
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_27.png",
+    "timestamp": "2026-04-21T18:12:11.811424",
+    "inference_time_ms": 86.0435962677002,
+    "total_objects": 2,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 2,
+        "total_surface_px": 37756
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 17683,
+        "bbox": [
+          453,
+          901,
+          754,
+          997
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 20073,
+        "bbox": [
+          46,
+          905,
+          270,
+          1019
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_28.png",
+    "timestamp": "2026-04-21T18:12:13.524318",
+    "inference_time_ms": 84.16533470153809,
+    "total_objects": 4,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 4,
+        "total_surface_px": 189047
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 50909,
+        "bbox": [
+          727,
+          5,
+          1019,
+          251
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 99814,
+        "bbox": [
+          654,
+          713,
+          1024,
+          1019
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 38101,
+        "bbox": [
+          283,
+          786,
+          640,
+          946
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 223,
+        "bbox": [
+          407,
+          814,
+          430,
+          827
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_29.png",
+    "timestamp": "2026-04-21T18:12:15.274354",
+    "inference_time_ms": 84.24878120422363,
+    "total_objects": 5,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 5,
+        "total_surface_px": 129603
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 21366,
+        "bbox": [
+          5,
+          5,
+          197,
+          187
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 1210,
+        "bbox": [
+          14,
+          238,
+          46,
+          288
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 3223,
+        "bbox": [
+          32,
+          571,
+          110,
+          663
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 36941,
+        "bbox": [
+          5,
+          731,
+          151,
+          1019
+        ]
+      },
+      {
+        "id": 4,
+        "class": "toiture_tole_bac",
+        "surface_px": 66863,
+        "bbox": [
+          681,
+          795,
+          1024,
+          1019
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_30.png",
+    "timestamp": "2026-04-21T18:12:16.875878",
+    "inference_time_ms": 84.89680290222168,
+    "total_objects": 0,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": []
+  },
+  {
+    "image": "Production_2_ortho_merge_32_36.png",
+    "timestamp": "2026-04-21T18:12:19.008033",
+    "inference_time_ms": 92.06223487854004,
+    "total_objects": 3,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 3,
+        "total_surface_px": 87938
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 67260,
+        "bbox": [
+          571,
+          5,
+          1019,
+          201
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 1882,
+        "bbox": [
+          9,
+          37,
+          59,
+          87
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 18796,
+        "bbox": [
+          873,
+          613,
+          1010,
+          795
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_32_37.png",
+    "timestamp": "2026-04-21T18:12:20.571269",
+    "inference_time_ms": 86.17758750915527,
+    "total_objects": 8,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 8,
+        "total_surface_px": 49747
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 22209,
+        "bbox": [
+          5,
+          5,
+          297,
+          169
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 2901,
+        "bbox": [
+          571,
+          5,
+          663,
+          69
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 448,
+        "bbox": [
+          910,
+          5,
+          974,
+          14
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 2450,
+        "bbox": [
+          919,
+          23,
+          997,
+          69
+        ]
+      },
+      {
+        "id": 4,
+        "class": "toiture_tole_bac",
+        "surface_px": 164,
+        "bbox": [
+          1015,
+          32,
+          1019,
+          73
+        ]
+      },
+      {
+        "id": 5,
+        "class": "toiture_tole_bac",
+        "surface_px": 207,
+        "bbox": [
+          361,
+          114,
+          379,
+          137
+        ]
+      },
+      {
+        "id": 6,
+        "class": "toiture_tole_bac",
+        "surface_px": 511,
+        "bbox": [
+          9,
+          238,
+          32,
+          279
+        ]
+      },
+      {
+        "id": 7,
+        "class": "toiture_tole_bac",
+        "surface_px": 20857,
+        "bbox": [
+          571,
+          955,
+          1006,
+          1019
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_33_12.png",
+    "timestamp": "2026-04-21T18:12:21.448699",
+    "inference_time_ms": 86.76481246948242,
+    "total_objects": 1,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 1,
+        "total_surface_px": 40155
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 40155,
+        "bbox": [
+          297,
+          11,
+          558,
+          210
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_33_13.png",
+    "timestamp": "2026-04-21T18:12:22.346517",
+    "inference_time_ms": 87.36944198608398,
+    "total_objects": 4,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 4,
+        "total_surface_px": 35037
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 29272,
+        "bbox": [
+          197,
+          2,
+          398,
+          219
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 1144,
+        "bbox": [
+          448,
+          24,
+          503,
+          60
+        ]
+      },
+      {
+        "id": 2,
+        "class": "toiture_tole_bac",
+        "surface_px": 4429,
+        "bbox": [
+          389,
+          278,
+          526,
+          331
+        ]
+      },
+      {
+        "id": 3,
+        "class": "toiture_tole_bac",
+        "surface_px": 192,
+        "bbox": [
+          370,
+          303,
+          393,
+          318
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_33_28.png",
+    "timestamp": "2026-04-21T18:12:23.206494",
+    "inference_time_ms": 88.80448341369629,
+    "total_objects": 1,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 1,
+        "total_surface_px": 35798
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 35798,
+        "bbox": [
+          695,
+          2,
+          1019,
+          212
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_33_29.png",
+    "timestamp": "2026-04-21T18:12:24.098751",
+    "inference_time_ms": 92.82588958740234,
+    "total_objects": 2,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 2,
+        "total_surface_px": 82233
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 62252,
+        "bbox": [
+          667,
+          2,
+          1024,
+          201
+        ]
+      },
+      {
+        "id": 1,
+        "class": "toiture_tole_bac",
+        "surface_px": 19981,
+        "bbox": [
+          0,
+          20,
+          119,
+          217
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_33_37.png",
+    "timestamp": "2026-04-21T18:12:24.986390",
+    "inference_time_ms": 84.78832244873047,
+    "total_objects": 1,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 1,
+        "total_surface_px": 40854
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": [
+      {
+        "id": 0,
+        "class": "toiture_tole_bac",
+        "surface_px": 40854,
+        "bbox": [
+          713,
+          2,
+          1024,
+          164
+        ]
+      }
+    ]
+  },
+  {
+    "image": "Production_2_ortho_merge_33_38.png",
+    "timestamp": "2026-04-21T18:12:25.839470",
+    "inference_time_ms": 86.00020408630371,
+    "total_objects": 0,
+    "surfaces_by_class": {
+      "toiture_tole_ondulee": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_tole_bac": {
+        "count": 0,
+        "total_surface_px": 0
+      },
+      "toiture_dalle": {
+        "count": 0,
+        "total_surface_px": 0
+      }
+    },
+    "details": []
+  }
+]

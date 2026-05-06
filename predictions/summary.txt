@@ -1,0 +1,62 @@
+======================================================================
+   RÉSUMÉ D'INFÉRENCE - KERAS-SEG CADASTRAL
+======================================================================
+
+📅 Date: 2026-04-21T18:12:25.841913
+🖼️  Images traitées: 37
+⏱️  Temps total: 1m 10.3s
+⏱️  Temps moyen/image: 437.3 ms
+🎯 Total objets: 113
+
+----------------------------------------------------------------------
+Classe                        Objets    Surface (px)          %
+----------------------------------------------------------------------
+toiture_tole_ondulee               0               0       0.0%
+toiture_tole_bac                 113       2,602,924     100.0%
+toiture_dalle                      0               0       0.0%
+----------------------------------------------------------------------
+TOTAL                            113       2,602,924     100.0%
+
+----------------------------------------------------------------------
+DÉTAILS PAR IMAGE
+----------------------------------------------------------------------
+Image                                        Objets      Temps (ms)
+----------------------------------------------------------------------
+Production_2_ortho_merge_27_17.png                4         13067.7
+Production_2_ortho_merge_27_19.png                6            89.3
+Production_2_ortho_merge_27_30.png                5            85.3
+Production_2_ortho_merge_27_32.png                7            85.3
+Production_2_ortho_merge_31_13.png                3            85.4
+Production_2_ortho_merge_31_14.png                2            86.6
+Production_2_ortho_merge_31_15.png                4            87.6
+Production_2_ortho_merge_31_18.png                7            84.7
+Production_2_ortho_merge_31_25.png                4            84.8
+Production_2_ortho_merge_31_26.png                4            85.4
+Production_2_ortho_merge_31_27.png                1            86.9
+Production_2_ortho_merge_31_28.png                3            87.1
+Production_2_ortho_merge_31_30.png                1            86.9
+Production_2_ortho_merge_31_40.png                4            86.9
+Production_2_ortho_merge_32_05.png                0            86.7
+Production_2_ortho_merge_32_06.png                1            86.2
+Production_2_ortho_merge_32_07.png                3            86.2
+Production_2_ortho_merge_32_08.png                2            84.9
+Production_2_ortho_merge_32_10.png                2            85.9
+Production_2_ortho_merge_32_12.png                5            85.9
+Production_2_ortho_merge_32_13.png                4            86.3
+Production_2_ortho_merge_32_14.png                4            86.3
+Production_2_ortho_merge_32_17.png                2            86.8
+Production_2_ortho_merge_32_18.png                3            84.9
+Production_2_ortho_merge_32_23.png                1            85.6
+Production_2_ortho_merge_32_27.png                2            86.0
+Production_2_ortho_merge_32_28.png                4            84.2
+Production_2_ortho_merge_32_29.png                5            84.2
+Production_2_ortho_merge_32_30.png                0            84.9
+Production_2_ortho_merge_32_36.png                3            92.1
+Production_2_ortho_merge_32_37.png                8            86.2
+Production_2_ortho_merge_33_12.png                1            86.8
+Production_2_ortho_merge_33_13.png                4            87.4
+Production_2_ortho_merge_33_28.png                1            88.8
+Production_2_ortho_merge_33_29.png                2            92.8
+Production_2_ortho_merge_33_37.png                1            84.8
+Production_2_ortho_merge_33_38.png                0            86.0
+======================================================================

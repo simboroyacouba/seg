@@ -551,12 +551,19 @@ def _run_optimization(train_ds, val_ds, num_classes):
 
     n_half = max(1, OPTUNA_CONFIG["n_epochs_per_trial"] // 2)
 
+    # Charger le modèle de base UNE SEULE FOIS — les essais clonent les poids
+    print("   Chargement du modèle de référence pour l'optimisation...")
+    ref_model, _ = build_model_simple(CONFIG["pretrained_model_path"], num_classes)
+    initial_weights = ref_model.get_weights()
+
     def objective(trial):
         lr1 = trial.suggest_float("phase1_lr", 1e-4, 1e-2, log=True)
         lr2 = trial.suggest_float("phase2_lr", 1e-7, 1e-4, log=True)
 
-        model, _ = build_model_simple(CONFIG["pretrained_model_path"], num_classes)
-        loss_fn  = combined_loss(num_classes)
+        # Cloner l'architecture et restaurer les poids initiaux (pas de reload disque)
+        model = tf.keras.models.clone_model(ref_model)
+        model.set_weights(initial_weights)
+        loss_fn = combined_loss(num_classes)
 
         # Phase 1 rapide
         freeze_base(model, {'segmentation_output_multiclass'})
@@ -577,6 +584,7 @@ def _run_optimization(train_ds, val_ds, num_classes):
             best_val = min(best_val, val_loss)
 
         del model
+        tf.keras.backend.clear_session()
         return best_val
 
     os.makedirs(OPTUNA_CONFIG["output_dir"], exist_ok=True)
@@ -806,6 +814,16 @@ Modes disponibles:
 
     os.makedirs(CONFIG["output_dir"], exist_ok=True)
     num_classes = len(CONFIG["classes"])
+
+    # ── Vérification du modèle pré-entraîné ─────────────────────────────────
+    pretrained_path = CONFIG["pretrained_model_path"]
+    if not os.path.exists(pretrained_path):
+        raise FileNotFoundError(
+            f"\nModèle pré-entraîné introuvable: {pretrained_path}\n"
+            f"→ Configurez SEGMENTATION_PRETRAINED_MODEL dans le fichier .env\n"
+            f"→ Sur Kaggle: ajoutez le dataset contenant le fichier .keras et mettez à jour le chemin"
+        )
+    print(f"\nModèle pré-entraîné: {pretrained_path}")
 
     # ── Coefficients d'augmentation (depuis arguments CLI) ──────────────────
     aug_coeffs = parse_aug_coeffs(args.aug, CONFIG["classes"])
